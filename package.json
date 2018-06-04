@@ -1,0 +1,14 @@
+{
+  "name": "com.kit.cordova.volumeControl",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "com.kit.cordova.volumeControl",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}

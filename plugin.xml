@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.kit.cordova.volumeControl" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>volumeControl</name>
+	<js-module name="volumeControl" src="www/volumeControl.js">
+	  <clobbers target="VolumeControl" />
+	</js-module>
+	<platform name="android">
+	<config-file parent="/*" target="res/xml/config.xml">
+		<feature name="VolumeControl">
+			<param name="android-package" value="com.kit.cordova.volumeControl.VolumeControl" />
+		</feature>
+	</config-file>
+	<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+	<source-file src="src/android/VolumeControl.java" target-dir="src/com/kit/cordova/volumeControl/VolumeControl" />
+	</platform>
+</plugin>
