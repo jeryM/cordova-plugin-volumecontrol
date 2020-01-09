@@ -5,7 +5,7 @@ Cordova plugin for volume ctrl
 ### install 
 
 ```
-cordova plugin add com.kit.cordova.volumeControl
+cordova plugin add com.kit.cordova.volume.control
 or 
 cordova plugin add https://github.com/jeryM/cordova-plugin-volumecontrol.git
 or
