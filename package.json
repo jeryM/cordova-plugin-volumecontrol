@@ -1,14 +1,26 @@
 {
   "name": "com.kit.cordova.volume.control",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "Cordova plugin for volume ctrl",
   "cordova": {
-    "id": "com.kit.cordova.volumeControl",
+    "id": "com.kit.cordova.volume.control",
     "platforms": []
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "jeryM",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeryM/cordova-plugin-volumecontrol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeryM/cordova-plugin-volumecontrol/issues"
+  },
+  "homepage": "https://github.com/jeryM/cordova-plugin-volumecontrol#readme"
 }
